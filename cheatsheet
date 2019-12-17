@@ -1,0 +1,35 @@
+#PeopleDB
+docker build -t takehomedb .
+docker run takehomedb
+<ny terminal>
+docker exec -it <tab - angrymestorf...> bash
+mysql
+showdatabases;
+use PeopleDB;
+show tables;
+
+#docker-compose
+docker-compose up
+docker-compose down
+
+
+#quitting exec
+exit
+
+#quitting mysqldb
+docker container stop <tab angrymestorf...>
+
+
+
+
+
+
+
+nginx
+https://medium.com/bitcraft/docker-composing-a-python-3-flask-app-line-by-line-93b721105777
+
+#dbStatements
+http://g2pc1.bu.edu/~qzpeng/manual/MySQL%20Commands.htm
+
+#flask python mysql
+http://codementor.io/adityamalviya/python-flask-mysql-connection-rxblpje73
